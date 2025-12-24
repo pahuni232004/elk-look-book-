@@ -53,6 +53,9 @@ header {
 }
 
 .header-etwot {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
     font-size: 0.7rem;
     color: rgba(255,255,255,0.4);
     text-decoration: none;
@@ -65,6 +68,12 @@ header {
 .header-etwot:hover {
     color: var(--secondary);
     background: rgba(255,255,255,0.1);
+}
+
+.header-etwot-logo {
+    height: 22px;
+    width: auto;
+    border-radius: 4px;
 }
 
 .logo-title {
@@ -895,6 +904,12 @@ section {
     width: 20px;
     height: 20px;
     border-radius: 4px;
+}
+
+.etwot-footer-logo {
+    height: 40px;
+    width: auto;
+    border-radius: 6px;
 }
 
 .footer-divider {
